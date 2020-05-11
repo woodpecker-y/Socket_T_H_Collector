@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>915</ColumnWidth1>
+        <ColumnWidth2>244</ColumnWidth2>
+        <ColumnWidth3>61</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>147</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15973-5605</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-4179-5622</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26722-5609</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Project</ExpandedNode><ExpandedNode>Project/User</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4702-5612</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\stm8l15x_it.c</Filename><XPos>0</XPos><YPos>216</YPos><SelStart>6280</SelStart><SelEnd>6280</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_one_week_rotation.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>156</SelStart><SelEnd>156</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_reader.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>201</SelStart><SelEnd>201</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\verify.c</Filename><XPos>0</XPos><YPos>147</YPos><SelStart>4363</SelStart><SelEnd>4363</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>63</SelStart><SelEnd>63</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_list.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>407</SelStart><SelEnd>407</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Board\board.c</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>2390</SelStart><SelEnd>2390</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_beep.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>271</SelStart><SelEnd>271</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Board\board.h</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>601</SelStart><SelEnd>601</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_beep.c</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>787</SelStart><SelEnd>858</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_led.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>373</SelStart><SelEnd>391</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_key.c</Filename><XPos>0</XPos><YPos>72</YPos><SelStart>1936</SelStart><SelEnd>1936</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_reader.c</Filename><XPos>0</XPos><YPos>119</YPos><SelStart>4702</SelStart><SelEnd>4702</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\main.c</Filename><XPos>0</XPos><YPos>157</YPos><SelStart>5235</SelStart><SelEnd>5252</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Docs\README.txt</Filename><XPos>0</XPos><YPos>38</YPos><SelStart>1456</SelStart><SelEnd>1456</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>37</SelStart><SelEnd>37</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\protocol.c</Filename><XPos>0</XPos><YPos>237</YPos><SelStart>6446</SelStart><SelEnd>6603</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_motor.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>124</SelStart><SelEnd>124</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\sysparams.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>30</SelStart><SelEnd>30</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\sysparams.h</Filename><XPos>0</XPos><YPos>17</YPos><SelStart>708</SelStart><SelEnd>728</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_motor.c</Filename><XPos>0</XPos><YPos>164</YPos><SelStart>6008</SelStart><SelEnd>6008</SelEnd></Tab><ActiveTab>20</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_comm.c</Filename><XPos>0</XPos><YPos>209</YPos><SelStart>7757</SelStart><SelEnd>7757</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\cj188.c</Filename><XPos>0</XPos><YPos>155</YPos><SelStart>333</SelStart><SelEnd>333</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\modbus.c</Filename><XPos>0</XPos><YPos>67</YPos><SelStart>268</SelStart><SelEnd>268</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\protocol.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>477</SelStart><SelEnd>497</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_led.c</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>714</SelStart><SelEnd>714</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_one_week_rotation.c</Filename><XPos>0</XPos><YPos>88</YPos><SelStart>3857</SelStart><SelEnd>3857</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-053127d8><key>iaridepm.enu1</key></Toolbar-053127d8></Sizes></Row0><Row1><Sizes><Toolbar-12814ae8><key>debuggergui.enu1</key></Toolbar-12814ae8></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>469</Bottom><Right>238</Right><x>-2</x><y>-2</y><xscreen>240</xscreen><yscreen>245</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>313700</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>603073</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>469</Bottom><Right>238</Right><x>-2</x><y>-2</y><xscreen>240</xscreen><yscreen>245</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>313700</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>603073</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>243</Bottom><Right>1538</Right><x>-2</x><y>-2</y><xscreen>1540</xscreen><yscreen>245</yscreen><sizeHorzCX>1002604</sizeHorzCX><sizeHorzCY>313700</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>313700</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

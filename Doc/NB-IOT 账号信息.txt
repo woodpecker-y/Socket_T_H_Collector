@@ -1,0 +1,27 @@
+
+丰源账号：
+
+电信平台
+https://develop.ct10649.com:8093/#/login
+https://180.101.147.135:8843/#/login
+账号：hbfy18603116883
+密码：FengYuan/2019  改为  FengYuan*2019
+
+//联通
+https://iot-api.huaweicloud.com:8743/
+
+https://49.4.80.153:8843
+网址 https://58.240.96.46:8843/main.html#/login
+账号  fengyuan_01
+密码  Foryon@833922
+
+
+
+黑蚂蚁账号：
+
+电信平台
+网址 https://58.240.96.46:8843/main.html#/login
+账号名：heimayi2018
+密码：Tangli.2019  改为  Tangli*2019  
+
+

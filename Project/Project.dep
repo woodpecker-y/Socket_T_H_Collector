@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>599366422</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_rtc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\uid.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\delay.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\protocol.o</file>
+      <file>$PROJ_DIR$\..\User\src\task_reader.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\error.pbi</file>
+      <file>$PROJ_DIR$\..\User\src\verify.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_main.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_key.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_beep.c</file>
+      <file>$PROJ_DIR$\..\User\src\main.c</file>
+      <file>$PROJ_DIR$\..\User\src\sysparams.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_led.c</file>
+      <file>$PROJ_DIR$\..\Lib\ADF.a</file>
+      <file>$PROJ_DIR$\..\Board\board.h</file>
+      <file>$PROJ_DIR$\..\User\src\error.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_motor.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\User\src\cj188.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_one_week_rotation.c</file>
+      <file>$PROJ_DIR$\..\User\src\modbus.c</file>
+      <file>$PROJ_DIR$\..\User\src\stm8l15x_it.c</file>
+      <file>$PROJ_DIR$\..\User\src\protocol.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_comm.c</file>
+      <file>$PROJ_DIR$\..\Board\board.c</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\gpio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_itc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_comp.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\utili.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\remap.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_syscfg.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_adc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_config.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_sysclk.h</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\com.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysparams.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_comm.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\eeprom.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8l151c6.icf</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_gpio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_i2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\User\inc\verify.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim3.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_led.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_motor.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\sysclk.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\error.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_pwr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_key.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_conf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\key.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_one_week_rotation.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim4.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_lcd.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Utili\check.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_main.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_gpio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_iwdg.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_rtc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Utili\convert.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\printf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\adf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\rf.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\TempCollector.out</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_clk.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_wdg.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_list.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_exti.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\protocol.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_awu.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\rtc.h</file>
+      <file>$PROJ_DIR$\..\User\inc\sysparams.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\wdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\verify.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_dac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_motor.pbi</file>
+      <file>$PROJ_DIR$\..\User\inc\task_led.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_config.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cj188.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\si4432.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_beep.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_dma.h</file>
+      <file>$PROJ_DIR$\..\User\src\task_adc.c</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_usart.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim2.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_motor.o</file>
+      <file>$PROJ_DIR$\..\User\inc\task_key.h</file>
+      <file>$PROJ_DIR$\..\User\inc\modbus.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\ba6289.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_wwdg.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_wfe.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+      <file>$PROJ_DIR$\..\User\inc\task_comm.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_beep.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_one_week_rotation.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_exti.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_one_week_rotation.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\..\User\inc\error.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_adc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysparams.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_beep.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_adc.o</file>
+      <file>$PROJ_DIR$\..\User\inc\protocol.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\awu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\verify.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_reader.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\dbg.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_reader.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_comm.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_rst.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\exti.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim1.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_adc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_adc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_alarm.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\encrypt.h</file>
+      <file>$PROJ_DIR$\..\User\src\task_config.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_config.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim5.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_reader.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_com.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\led.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\BA2804-EV.hex</file>
+      <file>$PROJ_DIR$\..\User\inc\stm8l15x_it.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_key.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\User\inc\sx1278.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_led.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_eeprom.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_led.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_aes.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Utili\des.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\..\User\inc\cj188.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\motor.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_spi.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\alarm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cj188.pbi</file>
+      <file>$PROJ_DIR$\..\User\inc\task_lora.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Utili\utili.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\task_beep.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_irtim.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_reader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 40 51 94 77 74 45 165 83 63 53 49 134 100 157 17 167 34 73 168 30 108 32 14 31 81 37 25 145 86 162 71 106 118 2 57 155 89 65 66 67 102 99 84 131 112 156 91 69 130 50 115 62 121 43 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 70 151</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 14 131 49 112 156 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\verify.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41 157 94 17 62 121 115 167 106 70 45 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 139 46 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 29 32 50 115 157 138 97 165 136 94 101 61 69 62 74 95 114 153 96 44 161 109 31 86 59 45 130 121 106 81 43 0 107 144 82 48 75 137 27 117 26 133 135 142 112 70 76 51 37 25 83 145 134 40 162 100 71 63 17 167 118 34 2 57 155 73 89 77 65 168 66 53 67 30 102 60 99 108 84 131 91 64 104 49 111 164 159</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 64 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 59 84 76 131 104 112 49 91 111 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 60 40 51 94 77 74 134 164 83 63 53 136 104 100 157 17 167 45 34 73 168 30 108 29 14 91 81 37 25 145 86 162 71 106 118 2 57 155 89 65 66 67 102 99 84 131 58 112 69 130 165 50 115 62 121 43 0 95 107 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 151 70</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 14 131 104 58 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_beep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 165 83 53 32 94 77 60 43 91 69 157 17 167 45 34 73 168 30 108 14 130 106 118 2 57 155 89 65 66 67 102 99 84 112 81 51 37 25 145 134 86 40 162 100 71 63 50 115 62 121 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 151 70</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 14 112 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 162 32 37 65 74 160 145 155 67 73 126 81 25 86 71 106 94 118 2 157 57 89 66 102 84 31 151 51 83 134 40 100 63 17 167 45 34 77 168 53 30 60 108 107 14 46 49 164 91 119 69 130 165 50 115 62 121 43 29 0 95 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 70</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 14 84 46 126 49 160 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\sysparams.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 32 94 77 74 165 53 69 157 17 167 45 34 73 168 30 108 70 130 106 118 2 57 155 89 65 66 67 102 99 43 83 81 51 37 25 145 134 86 40 162 100 71 63 50 115 62 121 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 84</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 84 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 101 71 157 74 25 94 61 32 81 86 50 115 29 138 97 47 37 145 162 62 95 114 153 96 44 161 109 14 51 83 134 40 100 63 121 106 43 0 107 144 82 48 75 137 27 117 26 133 135 142 73 84 91 45 69 130 165 17 167 118 34 2 57 155 89 77 65 168 66 53 67 30 102 60 99 108 70 151</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 14 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\error.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 74 95 73 162 168 108 37 157 153 32 77 53 60 145 62 114 57 155 89 65 66 67 102 99 81 25 86 71 50 115 29 136 138 94 43 83 84 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 51 134 40 100 63 121 106 0 107 144 82 48 75 119 70 45 69 130 165 17 167 118 34 2</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 119 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 84 70 45 157 94 17 62 121 115 167 106 50 81 32 118 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 142 74 106 48 117 164 144 137 133 14 70 45 130 94 121 157 81 43 107 82 75 27 26 135 32 160 91 69 165 50 115 62 29 95 136 114 138 153 101 96 97 44 61 161 47 109 134 84 119 31 51 37 25 83 145 86 40 162 100 71 63 17 167 118 34 2 57 155 73 89 77 65 168 66 53 67 30 102 60 99 108 49 151</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 49 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 160 84 14 119 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\cj188.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102 2 86 74 81 106 89 25 71 94 118 157 57 66 32 37 145 162 155 65 67 99 70 159 51 83 134 40 100 63 17 167 45 34 73 77 168 53 30 60 108 84 69 130 165 50 115 62 121 43 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_one_week_rotation.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 107 100 157 81 75 26 32 134 94 121 43 82 27 135 70 159 51 83 40 63 106 0 144 48 137 117 133 142 45 49 37 25 145 86 162 71 50 115 62 29 95 136 114 138 153 101 96 97 44 61 161 47 109 84 59 91 69 130 165 17 167 118 34 2 57 155 73 89 77 65 168 66 53 67 30 102 60 99 108</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 49 59 159 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 145 74 155 37 162 65 99 32 81 25 86 71 106 94 118 2 157 57 89 66 102 51 83 134 40 100 63 17 167 45 34 73 77 168 53 30 60 108 105 69 130 165 50 115 62 121 43 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 70</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\stm8l15x_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 83 67 155 34 157 17 167 65 99 63 32 49 57 89 66 102 74 51 40 45 70 151 106 73 77 168 53 30 60 108 134 100 148 64 104 50 115 62 121 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 81 37 25 145 86 162 71 118 2 69 130 165 43 29 0 95 107 136 144 114 82 138 48 153 75 59 84</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 45 157 94 17 62 121 115 167 106 50 148 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 70 81 32 118 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 64 59 84 49 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 106 74 81 86 2 102 83 25 71 94 118 157 57 66 43 84 37 145 162 155 65 67 99 32 159 51 134 40 100 63 17 167 45 34 73 77 168 53 30 60 108 125 69 130 165 50 115 62 121 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 70</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 84 159 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_comm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 53 32 63 74 91 51 40 94 77 60 159 134 100 157 17 167 45 34 73 168 30 108 49 130 81 37 25 145 86 162 71 106 118 2 57 155 89 65 66 67 102 99 70 111 125 14 69 165 50 115 62 121 43 29 0 95 107 136 144 114 82 138 48 153 75 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109 84 151</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 28 63 111 159 49 125 84 14 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Board\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 157 155 74 94 121 65 99 45 34 57 89 66 102 151 118 2 50 115 62 73 77 168 53 30 60 108 29 32 81 43 0 95 107 136 144 114 82 138 48 153 75 106 17 167 101 137 96 27 97 117 44 26 61 133 161 135 47 142 109</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 32 45 157 94 17 62 121 115 167 106 50 81 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Project.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 146 163 5 79 56 78 128 38 123 132 54 80 90 113 129 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\TempCollector.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 42 13 110 93 52 150 85 3 55 122 39 92 87 103 116 127 158 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 45 157 94 17 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 68 63 31 84 14 119</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 68 63 31 84 14 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 45 157 94 17 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 68 63 33 84 105</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 70 45 157 94 17 62 121 115 167 106 50 81 32 118 74 57 137 155 96 73 27 89 97 77 117 65 44 168 26 66 61 53 133 67 161 30 135 102 47 60 142 99 109 108 101 34 43 29 2 0 95 107 136 144 114 82 138 48 153 75 51 37 69 130 25 83 145 134 86 40 162 100 71 68 63 33 84 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_rtc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\uid.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\delay.h</file>
+      <file>$PROJ_DIR$\..\User\src\task_reader.c</file>
+      <file>$PROJ_DIR$\..\User\src\verify.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_main.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_key.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_beep.c</file>
+      <file>$PROJ_DIR$\..\User\src\main.c</file>
+      <file>$PROJ_DIR$\..\User\src\sysparams.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_led.c</file>
+      <file>$PROJ_DIR$\..\Lib\ADF.a</file>
+      <file>$PROJ_DIR$\..\Board\board.h</file>
+      <file>$PROJ_DIR$\..\User\src\error.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_motor.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\User\src\cj188.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_one_week_rotation.c</file>
+      <file>$PROJ_DIR$\..\User\src\modbus.c</file>
+      <file>$PROJ_DIR$\..\User\src\stm8l15x_it.c</file>
+      <file>$PROJ_DIR$\..\User\src\protocol.c</file>
+      <file>$PROJ_DIR$\..\User\src\task_comm.c</file>
+      <file>$PROJ_DIR$\..\Board\board.c</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\gpio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_itc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_comp.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\utili.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\remap.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_syscfg.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_sysclk.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\com.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\eeprom.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8l151c6.icf</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_gpio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_i2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\User\inc\verify.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim3.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_led.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_motor.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\sysclk.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_pwr.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_conf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\key.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_one_week_rotation.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim4.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_lcd.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Utili\check.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_main.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_gpio.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_iwdg.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_rtc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\printf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\adf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\rf.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_clk.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_wdg.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_list.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_exti.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_awu.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\rtc.h</file>
+      <file>$PROJ_DIR$\..\User\inc\sysparams.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\wdg.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_dac.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_led.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\si4432.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_beep.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_dma.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_usart.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim2.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_key.h</file>
+      <file>$PROJ_DIR$\..\User\inc\modbus.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\ba6289.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_wwdg.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_wfe.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_comm.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_beep.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_exti.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\..\User\inc\error.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\User\inc\protocol.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\awu.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\dbg.h</file>
+      <file>$PROJ_DIR$\..\User\inc\task_reader.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_rst.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\exti.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim1.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_adc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_adc.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_alarm.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\encrypt.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_tim5.h</file>
+      <file>$PROJ_DIR$\Release\Obj\task_led.o</file>
+      <file>$PROJ_DIR$\Release\Obj\task_beep.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\beep.h</file>
+      <file>$PROJ_DIR$\Release\Obj\task_motor.o</file>
+      <file>$PROJ_DIR$\Release\Obj\task_beep.o</file>
+      <file>$PROJ_DIR$\Release\Obj\sysparams.o</file>
+      <file>$PROJ_DIR$\Release\Obj\modbus.o</file>
+      <file>$PROJ_DIR$\Release\Obj\sysparams.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_beep.h</file>
+      <file>$PROJ_DIR$\Release\Obj\error.o</file>
+      <file>$PROJ_DIR$\Release\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\task_reader.o</file>
+      <file>$PROJ_DIR$\Release\Obj\task_one_week_rotation.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\task_comm.o</file>
+      <file>$PROJ_DIR$\Release\Obj\cj188.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\modbus.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cj188.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm8l15x_it.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_key.h</file>
+      <file>$PROJ_DIR$\Release\Obj\protocol.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\task_motor.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\error.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\task_key.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\Project.out</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\rc522.h</file>
+      <file>$PROJ_DIR$\Release\Obj\task_key.o</file>
+      <file>$PROJ_DIR$\Release\Obj\task_one_week_rotation.o</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smn.a</file>
+      <file>$PROJ_DIR$\Release\Obj\task_comm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\protocol.o</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\rfid.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_com.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\led.h</file>
+      <file>$PROJ_DIR$\..\User\inc\stm8l15x_it.h</file>
+      <file>$PROJ_DIR$\Release\Obj\task_main.pbi</file>
+      <file>$PROJ_DIR$\..\Lib\include\BSP\bsp_eeprom.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_aes.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Utili\des.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\..\User\inc\cj188.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\motor.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_spi.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\HAL\alarm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\Lib\include\Libraries\stm8l15x_irtim.h</file>
+      <file>$PROJ_DIR$\Release\Obj\verify.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\board.o</file>
+      <file>$PROJ_DIR$\Release\Obj\task_reader.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\task_main.o</file>
+      <file>$PROJ_DIR$\Release\Obj\verify.o</file>
+      <file>$PROJ_DIR$\Release\Exe\LockingValve-1.1.1.170419.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\stm8l15x_it.o</file>
+      <file>$PROJ_DIR$\Release\Obj\task_led.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_reader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 27 97 101 60 143 144 82 89 104 37 95 26 42 0 100 25 24 99 29 57 12 70 56 71 81 64 35 113 72 123 137 73 74 36 49 148 39 84 98 67 96 41 86 43 31 23 136 66 138 107 46 68 32 149 76 58 51 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 12 96 41 86 143 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\verify.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 51 0 99 107 144 25 60 1 23 32 100 24 38 81 31 66 98 76 27 82 101 89 97 104 29 103 68 88 43 136 138 46 149 58 35 113 72 123 137 73 74 36 49 148 39 84 37 57 26 95 71 15 150 50 92 56 42 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83 33</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 33 144 71 15 50 92 88 150 81 57 37 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 103 38 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 2 46 71 43 144 60 136 149 50 40 63 48 57 138 68 58 81 150 90 65 130 45 77 59 151 28 83 29 96 146 64 31 23 66 107 98 32 76 51 15 92 37 30 87 102 141 61 142 69 53 54 55 78 75 27 67 70 62 47 56 95 26 42 88 35 113 0 72 82 123 100 137 101 73 25 74 89 36 24 49 97 148 99 39 104 84 86 52 79 41 85</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 47 67 62 96 79 86 41 70 85 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 113 60 56 71 73 144 64 123 36 84 27 29 57 79 81 35 72 137 74 49 39 37 12 70 95 26 42 88 0 82 100 101 25 89 24 97 99 104 67 96 46 43 31 23 136 66 138 107 98 68 32 149 76 58 51 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 12 96 79 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_beep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 60 50 37 40 63 29 144 2 71 44 35 57 70 56 81 150 90 65 130 45 77 59 151 28 83 12 95 26 15 92 30 87 102 141 61 142 69 53 54 55 78 75 67 86 64 43 31 23 136 66 138 107 46 98 68 32 149 76 58 51 42 88 27 113 0 72 82 123 100 137 101 73 25 74 89 36 24 49 97 148 99 39 104 84</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 12 86 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 37 66 71 141 60 76 75 31 98 144 87 142 55 29 94 64 23 107 32 51 15 92 30 102 61 69 54 78 35 67 147 43 136 138 46 68 149 58 81 150 50 90 2 65 40 130 45 77 59 63 151 44 28 48 83 12 38 41 70 56 95 26 42 88 27 113 0 72 82 123 100 137 101 73 25 74 89 36 24 49 97 148 99 39 104 84 57</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 12 67 38 94 41 147 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\sysparams.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 27 46 88 43 101 60 29 136 149 144 82 89 104 138 68 58 42 0 100 25 24 99 57 64 31 23 66 107 98 32 76 51 71 81 35 113 72 123 137 73 74 36 49 148 39 84 37 56 95 26 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83 67</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 67 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 72 32 23 81 74 60 27 64 107 51 35 137 144 49 29 31 66 98 76 71 113 123 73 36 148 84 12 43 136 138 46 68 149 58 42 88 0 82 100 101 25 89 24 97 99 104 67 70 37 56 95 26 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83 57</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 12 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\error.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 28 77 59 42 144 29 45 151 83 68 0 27 63 44 48 138 58 100 142 69 53 54 55 78 75 43 136 46 149 88 82 67 101 73 25 74 89 36 24 49 97 148 99 39 104 84 57 64 31 23 66 107 98 32 76 51 71 81 35 113 72 123 137 91 37 56 95 26 15 150 50 92 90 30 2 87 65 102 40 141 130 61</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 91 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 67 57 37 144 71 15 50 92 88 150 81 42 64 29 90 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 75 66 71 37 141 53 31 98 144 87 142 55 60 12 64 23 107 32 51 15 92 30 102 61 69 54 78 29 147 70 43 136 138 46 68 149 58 81 150 50 90 2 65 40 130 45 77 59 63 151 44 28 48 83 27 57 67 91 56 95 26 42 88 35 113 0 72 82 123 100 137 101 73 25 74 89 36 24 49 97 148 99 39 104 84 41</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 147 67 12 91 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\cj188.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_one_week_rotation.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 113 98 60 31 71 73 66 76 144 64 123 36 84 57 146 23 107 32 51 81 35 72 137 74 49 39 29 41 43 136 138 46 68 149 58 42 88 27 0 82 100 101 25 89 24 97 99 104 67 47 70 37 56 95 26 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 41 47 146 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 37 60 66 71 141 76 75 31 98 144 87 142 55 64 23 107 32 51 15 92 30 102 61 69 54 78 27 29 43 136 138 46 68 149 58 81 150 50 90 2 65 40 130 45 77 59 63 151 44 28 48 83 80 56 95 26 42 88 35 113 0 72 82 123 100 137 101 73 25 74 89 36 24 49 97 148 99 39 104 84 57</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\stm8l15x_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 144 148 149 73 71 36 84 136 90 130 57 52 74 49 39 43 46 65 98 139 79 42 88 101 25 89 24 97 99 104 138 68 58 2 40 29 37 41 81 15 150 50 92 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83 64 31 23 66 107 32 76 51 30 87 102 141 61 35 56 95 26 27 113 0 72 82 123 100 137 47 67</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37 144 71 15 50 92 88 150 81 42 139 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 57 64 29 90 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 52 47 67 41 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 24 37 26 100 95 42 144 0 25 99 67 88 27 82 101 89 97 104 35 29 146 56 71 81 64 113 72 123 137 73 74 36 49 148 39 84 93 43 31 23 136 66 138 107 46 98 68 32 149 76 58 51 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83 57</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 67 146 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\src\task_comm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 35 49 29 137 70 81 72 74 39 60 146 56 71 64 113 123 73 36 148 84 41 95 37 26 42 88 27 0 82 100 101 25 89 24 97 99 104 57 85 31 93 12 43 23 136 66 138 107 46 98 68 32 149 76 58 51 15 150 50 92 90 30 2 87 65 102 40 141 130 61 45 77 142 59 69 63 53 151 54 44 55 28 78 48 75 83 67</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57 37 144 71 15 50 92 88 150 81 42 64 29 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61 43 31 56 95 23 136 66 138 107 46 98 68 32 149 76 58 26 51 85 146 41 93 67 12 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Board\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 71 40 142 35 60 2 144 53 75 29 90 65 130 15 92 81 69 54 78 37 30 87 102 141 61 150 50 45 77 59 63 151 44 28 48 83 64 27 113 0 72 82 123 100 137 42 88 101 73 25 74 89 36 24 49 97 148 99 39 104 84</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 29 37 144 71 15 50 92 88 150 81 42 64 90 60 45 101 142 73 59 25 69 74 63 89 53 36 151 24 54 49 44 97 55 148 28 99 78 39 48 104 75 84 83 77 30 35 27 2 113 0 72 82 123 100 137 87 65 102 40 141 130 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\Project.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 34 11 153 121 114 160 111 135 158 110 109 118 131 105 155 108 132 116 156 145 133</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

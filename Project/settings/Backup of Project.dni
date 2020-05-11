@@ -1,0 +1,110 @@
+[DebugChecksum]
+Checksum=-35940931
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=u8[2]	4	0
+Fmt1=u8[72]	4	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\User\inc\sx1278.h}.231.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_lora.c}.148.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_valve.c}.861.5" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_valve.c}.898.1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\115 - Library - 开发库系列\ADF\Module\Verify\verify.c}.146.5" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1879.1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.968.1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.672.40" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_key.c}.345.1" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\..\User\inc\protocol.h}.11.1" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.968.6" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.609.5" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1879.1" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.968.13" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1879.1" 0 0 0 0 "" 0 ""
+Bp15=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.869.5" 0 0 0 0 "" 0 ""
+Bp16=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_sample.c}.155.48" 0 0 0 0 "" 0 ""
+Bp17=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.459.13" 0 0 0 0 "" 0 ""
+Bp18=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.443.13" 0 0 0 0 "" 0 ""
+Bp19=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp20=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp21=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp22=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp23=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.533.13" 0 0 0 0 "" 0 ""
+Bp24=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp25=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp26=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.1" 0 0 0 0 "" 0 ""
+Bp27=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_disp.c}.138.1" 0 0 0 0 "" 0 ""
+Bp28=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_key.c}.345.1" 0 0 0 0 "" 0 ""
+Bp29=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.866.5" 0 0 0 0 "" 0 ""
+Bp30=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_super_capacitor.c}.258.5" 0 0 0 0 "" 0 ""
+Bp31=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.747.1" 0 0 0 0 "" 0 ""
+Bp32=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_report.c}.747.5" 0 0 0 0 "" 0 ""
+Bp33=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.810.9" 0 0 0 0 "" 0 ""
+Bp34=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1879.5" 0 0 0 0 "" 0 ""
+Bp35=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_disp.c}.68.9" 0 0 0 0 "" 0 ""
+Bp36=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_key.c}.344.5" 0 0 0 0 "" 0 ""
+Bp37=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.626.25" 0 0 0 0 "" 0 ""
+Bp38=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bsp1_adc.c}.354.9" 0 0 0 0 "" 0 ""
+Bp39=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bsp1_adc.c}.294.9" 0 0 0 0 "" 0 ""
+Bp40=_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bsp1_adc.c}.361.5" 0 0 0 0 "" 0 ""
+Count=41
+[Aliases]
+A0=_ "D:\iWork\ADF\HAL\src\dbg.c" ""
+A1=_ "D:\iWork\ADF\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""
+A2=_ "D:\iWork\ADF\Utili\src\des.c" ""
+A3=_ "D:\iWork\Library\ADF\BSP\STM8L15x\BA6289\ba6289.c" ""
+A4=_ "D:\iWork\Library\ADF\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""
+A5=_ "D:\iWork\Library\ADF\Utili\src\utili.c" ""
+A6=_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\BSP\STM8L15x\RTC\bsp_rtc.c" ""
+A7=_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""
+A8=_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""
+A9=_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c" ""
+A10=_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Utili\src\utili.c" ""
+A11=_ "G:\Workspace\ADF\BSP\STM8L15x\UART\bsp_com.c" ""
+A12=_ "G:\Workspace\ADF\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""
+A13=_ "H:\1.代码仓库\3.ADF\trunk\HAL\src\rtc.c" ""
+A14=_ "H:\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""
+Count=15
+SuppressDialog=1
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0

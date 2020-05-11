@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<settings>
+    <DebugChecksum>
+        <Checksum>3205374753</Checksum>
+    </DebugChecksum>
+    <DisAssemblyWindow>
+        <NumStates>_ 1</NumStates>
+        <State_1>_ 1</State_1>
+    </DisAssemblyWindow>
+    <InstructionProfiling>
+        <Enabled>_ 0</Enabled>
+    </InstructionProfiling>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <StackPlugin>
+        <Enabled>1</Enabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnHow>0</WarnHow>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </StackPlugin>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <array_types>
+        <Fmt0>u8[2]	4	0</Fmt0>
+        <Fmt1>u8[72]	4	0</Fmt1>
+    </array_types>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\User\inc\sx1278.h}.231.1" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_lora.c}.148.1" 0 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_valve.c}.861.5" 0 0 0 0 "" 0 ""</Bp2>
+        <Bp3>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_valve.c}.898.1" 0 0 0 0 "" 0 ""</Bp3>
+        <Bp4>_ "STD_CODE" "{$PROJ_DIR$\..\..\..\115 - Library - 开发库系列\ADF\Module\Verify\verify.c}.146.5" 0 0 0 0 "" 0 ""</Bp4>
+        <Bp5>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1921.1" 0 0 0 0 "" 0 ""</Bp5>
+        <Bp6>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1058.5" 0 0 0 0 "" 0 ""</Bp6>
+        <Bp7>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_key.c}.345.1" 0 0 0 0 "" 0 ""</Bp7>
+        <Bp8>_ "STD_CODE" "{$PROJ_DIR$\..\User\inc\protocol.h}.8.1" 0 0 0 0 "" 0 ""</Bp8>
+        <Bp9>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1058.5" 0 0 0 0 "" 0 ""</Bp9>
+        <Bp10>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1921.1" 0 0 0 0 "" 0 ""</Bp10>
+        <Bp11>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1058.5" 0 0 0 0 "" 0 ""</Bp11>
+        <Bp12>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1921.1" 0 0 0 0 "" 0 ""</Bp12>
+        <Bp13>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.454.13" 0 0 0 0 "" 0 ""</Bp13>
+        <Bp14>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.438.13" 0 0 0 0 "" 0 ""</Bp14>
+        <Bp15>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.528.17" 0 0 0 0 "" 0 ""</Bp15>
+        <Bp16>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_disp.c}.137.5" 0 0 0 0 "" 0 ""</Bp16>
+        <Bp17>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_key.c}.345.1" 0 0 0 0 "" 0 ""</Bp17>
+        <Bp18>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_super_capacitor.c}.258.5" 0 0 0 0 "" 0 ""</Bp18>
+        <Bp19>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.831.25" 0 0 0 0 "" 0 ""</Bp19>
+        <Bp20>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bc95.c}.1921.1" 0 0 0 0 "" 0 ""</Bp20>
+        <Bp21>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_disp.c}.137.5" 0 0 0 0 "" 0 ""</Bp21>
+        <Bp22>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\task_key.c}.344.5" 0 0 0 0 "" 0 ""</Bp22>
+        <Bp23>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bsp1_adc.c}.354.9" 0 0 0 0 "" 0 ""</Bp23>
+        <Bp24>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bsp1_adc.c}.294.9" 0 0 0 0 "" 0 ""</Bp24>
+        <Bp25>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\bsp1_adc.c}.361.5" 0 0 0 0 "" 0 ""</Bp25>
+        <Bp26>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\sht3x.c}.487.1" 0 0 0 0 "" 0 ""</Bp26>
+        <Bp27>_ "STD_CODE" "{$PROJ_DIR$\..\User\src\sht3x.c}.487.1" 0 0 0 0 "" 0 ""</Bp27>
+        <Count>28</Count>
+    </Breakpoints>
+    <Aliases>
+        <A0>_ "D:\ProfessionalSoftware\IAR_For_STM8\stm8\inc\c\string.h" ""</A0>
+        <A1>_ "D:\iWork\ADF\HAL\src\dbg.c" ""</A1>
+        <A2>_ "D:\iWork\ADF\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A2>
+        <A3>_ "D:\iWork\ADF\Utili\src\des.c" ""</A3>
+        <A4>_ "D:\iWork\Library\ADF\BSP\STM8L15x\BA6289\ba6289.c" ""</A4>
+        <A5>_ "D:\iWork\Library\ADF\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A5>
+        <A6>_ "D:\iWork\Library\ADF\Utili\src\utili.c" ""</A6>
+        <A7>_ "E:\00.T3开发\T3资料\00.开发目录\T3-NT-1.0.15.190305\User\src\sht3x.c" ""</A7>
+        <A8>_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\BSP\STM8L15x\RTC\bsp_rtc.c" ""</A8>
+        <A9>_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""</A9>
+        <A10>_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A10>
+        <A11>_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_syscfg.c" ""</A11>
+        <A12>_ "E:\KingsoftSyncdisk\工作区\1.代码仓库\3.ADF\trunk\Utili\src\utili.c" ""</A12>
+        <A13>_ "G:\Workspace\ADF\BSP\STM8L15x\UART\bsp_com.c" ""</A13>
+        <A14>_ "G:\Workspace\ADF\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A14>
+        <A15>_ "H:\1.代码仓库\3.ADF\trunk\HAL\src\rtc.c" ""</A15>
+        <A16>_ "H:\1.代码仓库\3.ADF\trunk\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" ""</A16>
+        <Count>17</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
+</settings>

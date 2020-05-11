@@ -1,0 +1,38 @@
+{
+    "devices": [
+        {
+            "manufacturerId": "Huawei",
+            "manufacturerName": "Huawei",
+            "model": "NBIoTDevice",
+            "protocolType": "CoAP",
+            "deviceType": "WaterMeter",
+            "serviceTypeCapabilities": [
+                {
+                    "serviceId": "Brightness",
+                    "serviceType": "Brightness",
+                    "option": "Master"
+                },
+                {
+                    "serviceId": "Electricity",
+                    "serviceType": "Electricity",
+                    "option": "Optional"
+                },
+                {
+                    "serviceId": "Temperature",
+                    "serviceType": "Temperature",
+                    "option": "Optional"
+                },
+				{
+                    "serviceId": "Connectivity",
+                    "serviceType": "Connectivity",
+                    "option": "Optional"
+                },
+                {
+                    "serviceId": "Battery",
+                    "serviceType": "Battery",
+                    "option": "Optional"
+                }
+            ]
+        }
+    ]
+}

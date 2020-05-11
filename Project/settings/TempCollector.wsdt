@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>TempCollector/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>193</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1392</ColumnWidth1><ColumnWidth2>371</ColumnWidth2><ColumnWidth3>92</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Find-in-Files>
+      <TerminalIO/>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1857</ColumnWidth1></Debug-Log>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-13466-22903</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-20014-3726</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-32289-5134</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-24537-31869</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>TempCollector</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>82</SelStart><SelEnd>95</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>131</SelStart><SelEnd>131</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Lib\include\HAL\wdg.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>773</SelStart><SelEnd>782</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\cj188.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>353</SelStart><SelEnd>353</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\cj188.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>342</SelStart><SelEnd>358</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Board\board.h</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>736</SelStart><SelEnd>736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\error.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Board\board.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>374</SelStart><SelEnd>374</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\verify.c</Filename><XPos>0</XPos><YPos>46</YPos><SelStart>1441</SelStart><SelEnd>1441</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_report.c</Filename><XPos>0</XPos><YPos>202</YPos><SelStart>7214</SelStart><SelEnd>7214</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\modbus.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>300</SelStart><SelEnd>300</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_adc.c</Filename><XPos>0</XPos><YPos>355</YPos><SelStart>18403</SelStart><SelEnd>18403</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_config.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>728</SelStart><SelEnd>728</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_schedule.c</Filename><XPos>0</XPos><YPos>52</YPos><SelStart>2176</SelStart><SelEnd>2176</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\main.c</Filename><XPos>0</XPos><YPos>203</YPos><SelStart>6130</SelStart><SelEnd>6130</SelEnd></Tab><ActiveTab>14</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_schedule.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>442</SelStart><SelEnd>442</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\sysparams.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>488</SelStart><SelEnd>488</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\sysparams.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>16</SelStart><SelEnd>16</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_list.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>265</SelStart><SelEnd>265</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_report.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>189</SelStart><SelEnd>189</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\inc\task_adc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>311</SelStart><SelEnd>311</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\task_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>256</SelStart><SelEnd>256</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\protocol.c</Filename><XPos>0</XPos><YPos>366</YPos><SelStart>12182</SelStart><SelEnd>12182</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\User\src\stm8l15x_it.c</Filename><XPos>0</XPos><YPos>110</YPos><SelStart>3769</SelStart><SelEnd>3769</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00cf11f8><key>iaridepm.enu1</key></Toolbar-00cf11f8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>445</Bottom><Right>267</Right><x>-2</x><y>-2</y><xscreen>251</xscreen><yscreen>237</yscreen><sizeHorzCX>196094</sizeHorzCX><sizeHorzCY>372057</sizeHorzCY><sizeVertCX>210156</sizeVertCX><sizeVertCY>701727</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>147</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>149</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>233909</sizeHorzCY><sizeVertCX>92188</sizeVertCX><sizeVertCY>125589</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

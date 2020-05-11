@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Backup of Project.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>Publish</name>
+      <member>
+        <project>Backup of Project</project>
+        <configuration>CU_20Min</configuration>
+      </member>
+      <member>
+        <project>Backup of Project</project>
+        <configuration>CT_20Min</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
