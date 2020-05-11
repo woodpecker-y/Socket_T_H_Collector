@@ -32,7 +32,7 @@ void LCD_Config(void)
     CLK_PeripheralClockConfig(CLK_Peripheral_LCD, ENABLE);
     CLK_RTCClockConfig(CLK_RTCCLKSource_LSE, CLK_RTCCLKDiv_1);
 
-    LCD_Init(LCD_Prescaler_4, LCD_Divider_16, LCD_Duty_1_4, LCD_Bias_1_3, LCD_VoltageSource_Internal);//LCD_VoltageSource_Internal    LCD_VoltageSource_External
+    LCD_Init(LCD_Prescaler_4, LCD_Divider_16, LCD_Duty_1_4, LCD_Bias_1_3, LCD_VoltageSource_External);//LCD_VoltageSource_Internal    LCD_VoltageSource_External
     LCD_PortMaskConfig(LCD_PortMaskRegister_0, 0xFF);           // Configures the LCD Port Mask.  0 --- 7  SEG
     LCD_PortMaskConfig(LCD_PortMaskRegister_1, 0x00);           // Configures the LCD Port Mask.  8 --- 15 SEG
     LCD_PortMaskConfig(LCD_PortMaskRegister_2, 0x00);           // Configures the LCD Port Mask.  16--- 23 SEG

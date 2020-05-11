@@ -3175,6 +3175,9 @@
             <name>$PROJ_DIR$\..\User\src\AdcDriver.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\User\src\aes.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\User\src\error.c</name>
         </file>
         <file>

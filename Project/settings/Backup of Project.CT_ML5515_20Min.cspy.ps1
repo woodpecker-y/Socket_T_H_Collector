@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95\Project\settings\Backup of Project.CT_ML5515_20Min.general.xcl" --backend -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95\Project\settings\Backup of Project.CT_ML5515_20Min.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95-AES\Project\settings\Backup of Project.CT_ML5515_20Min.general.xcl" --backend -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95-AES\Project\settings\Backup of Project.CT_ML5515_20Min.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95\Project\settings\Backup of Project.CT_ML5515_20Min.general.xcl" --debug_file=$debugfile --backend -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95\Project\settings\Backup of Project.CT_ML5515_20Min.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95-AES\Project\settings\Backup of Project.CT_ML5515_20Min.general.xcl" --debug_file=$debugfile --backend -f "E:\Yjh开发\06.【插座型室温采集器】\Socket-1.0.20-BC95-AES\Project\settings\Backup of Project.CT_ML5515_20Min.driver.xcl" 
 }

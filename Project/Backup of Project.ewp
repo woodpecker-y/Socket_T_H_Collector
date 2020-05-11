@@ -1839,6 +1839,7 @@
                     <state>HAVE_SYSTIMER</state>
                     <state>HAVE_NB</state>
                     <state>HAVE_CT</state>
+                    <state>HAVE_AES128_ECB_PKCS7PADDING</state>
                     <state>HAVE_ML5515</state>
                     <state>HAVE_20MIN</state>
                 </option>
@@ -2489,6 +2490,9 @@
         <name>User</name>
         <file>
             <name>$PROJ_DIR$\..\User\src\AdcDriver.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\src\aes.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\User\src\error.c</name>

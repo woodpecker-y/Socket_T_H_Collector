@@ -6,8 +6,11 @@
 #include "task_disp.h"
 #include "update_cycle.h"
 #include "task_disp.h"
+#include "aes.h"
 
 //#define HAVE_NB_TEST
+
+uint8_t key[16] = { 0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39, 0x30, 0x31, 0x32, 0x33, 0x34, 0x35 };
 
 //u8   task_report_max_rssi_band(u8 *band_rssi, u8 cnt);
 void task_report_display_triggered(void);
@@ -243,8 +246,11 @@ void task_report_proc(void)
 
             // 准备报文
             s_report_handler.pkg_size = sizeof(s_report_handler.pkg_data);
-            memset(s_report_handler.pkg_data, 0, sizeof(s_report_handler.pkg_data));//清空上传数组
-            protocol_report_request(s_report_handler.pkg_data, &s_report_handler.pkg_size, g_sys_params.addr, &log);
+            memset(s_report_handler.pkg_data, 0, sizeof(s_report_handler.pkg_data));//清空上传数组 
+			
+			protocol_report_request(s_report_handler.pkg_data, &s_report_handler.pkg_size, g_sys_params.addr, &log);//组包
+			//加密处理
+            encrypt_ecb(key, s_report_handler.pkg_data, s_report_handler.pkg_size, s_report_handler.pkg_data, &s_report_handler.pkg_size);
 
 //            // 首次发送使用普通发送，等待命令下发，其它时候使用RAI发送快速进入PSM模式
             if (s_report_handler.upload_cnt > 1)
@@ -278,7 +284,9 @@ void task_report_proc(void)
             memcpy(now_data.sample_time, g_sys_params.t, 7);
             now_data.sample_time[6] = 0x00;     //美化时间秒归为0
 
-            protocol_report_request(s_report_handler.pkg_data, &s_report_handler.pkg_size, g_sys_params.addr, &now_data);
+            protocol_report_request(s_report_handler.pkg_data, &s_report_handler.pkg_size, g_sys_params.addr, &now_data);//组包
+            //加密处理
+            encrypt_ecb(key, s_report_handler.pkg_data, s_report_handler.pkg_size, s_report_handler.pkg_data, &s_report_handler.pkg_size);
 
             s_report_handler.sts = E_REPORT_REPORT;
             s_report_handler.send_mode = E_SEND_RAI_NON;
@@ -337,6 +345,11 @@ void task_report_proc(void)
             printf("s_report_handler.pkg_size = %d\r\n", s_report_handler.pkg_size);
             task_report_hexdump(s_report_handler.pkg_data, s_report_handler.pkg_size);
             #endif
+
+            //数据解密
+            decrypt_ecb(key, s_report_handler.pkg_data, s_report_handler.pkg_size, s_report_handler.pkg_data, &s_report_handler.pkg_size);
+
+
             // 处理下发的命令
             rv = task_report_dealwith_command(s_report_handler.pkg_data, &s_report_handler.pkg_size);
             if ( rv == 0 )
@@ -422,7 +435,7 @@ void task_report_proc(void)
             else
             {
                 s_report_handler.retry_cnt ++;
-                s_report_handler.timer = 30*UNIT_SECOND;    //等待重连
+                s_report_handler.timer = 30*UNIT_SECOND;    //等待重连的2分钟
                 NB_SoftReboot();
             }
 
